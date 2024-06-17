@@ -43,14 +43,14 @@ const Home = () => {
           </p>
         </div>
       </div>
-      <div className="py-10 bg-[#FF3DB4] px-6 lg:px-20">
+      <div className="py-16 md:py-10 bg-[#FF3DB4] px-6 lg:px-20">
         <div className="grid lg:grid-cols-2 gap-5 justify-items-center items-center">
-          <p className="text-3xl lg:text-4xl text-center text-white leading-snug md:col-start-2 md:col-end-3 order-2">
+          <p className="text-3xl lg:text-4xl text-center text-white leading-snug md:col-start-1 md:col-end-2 order-1">
             Join a community-driven revolution that blends cuteness with crypto
             chaos. Get ready for laughter, fun, and moon-worthy gains. Embrace
             the new world order, where Hello Kitty rules!
           </p>
-          <img src={SECTION_2} alt="" className="h-[450px] object-contain md:col-start-1 md:col-end-2 order-1" />
+          <img src={SECTION_2} alt="" className="h-[450px] object-contain md:col-start-2 md:col-end-3 order-2" />
         </div>
       </div>
       <div className="bg-[#FF3DB4] py-10 flex flex-col items-center pt-[100px] md:pt-[200px]">
@@ -87,7 +87,7 @@ const Home = () => {
         </div>
         <div className="pt-10 grid lg:grid-cols-2 gap-5 justify-items-center items-center px-6">
           <img src={TIMELINESIX} alt="timeline" className="object-contain h-[350px]" />
-          <p className="text-2xl lg:text-4xl text-center text-white leading-snug">
+          <p className="text-2xl lg:text-4xl text-center text-white leading-snug w-[350px] md:w-full">
             Join us in creating a new world order with Kitty leading the way!
             🚀🔥😺
           </p>
