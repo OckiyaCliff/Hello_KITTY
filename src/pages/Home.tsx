@@ -151,7 +151,7 @@ const Home = () => {
               <div className="grid grid-cols-2 gap-2">
                 <div className="flex flex-col">
                   {/* <h2>Tokenomics</h2> */}
-                  <h2>Team Section</h2>
+                  {/* <h2>Team Section</h2> */}
                   {/* <h2>About US</h2> */}
                 </div>
                 <div className="flex flex-col">
