@@ -1,0 +1,18 @@
+/* TimelineElement.module.css */
+
+.timeline-element {
+    background: transparent;
+    box-shadow: none;
+    height: 350px;
+    color: white;
+    font-family: "Comic Neue";
+    font-weight: 600;
+    font-size: 1rem; /* Default font size */
+  }
+  
+  @media (max-width: 768px) {
+    .timeline-element {
+      font-size: 0.875rem; /* Adjust font size for smaller screens */
+    }
+  }
+  

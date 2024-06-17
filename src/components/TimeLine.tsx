@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { KITTY2 } from "../constants/home";
+import "../App.css";
 
 interface TimelineElementProps {
   date: string;
@@ -43,9 +44,9 @@ const TimelineElement: React.FC<TimelineElementProps> = ({
       boxShadow: "none",
       height: "350px",
       color: "white",
-      fontSize: "40px",
       fontFamily: "Comic Neue",
-      fontWeight: 600
+      fontWeight: 600,
+      fontSize: "35px",
     }}
     contentArrowStyle={contentArrowStyle}
   >

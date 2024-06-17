@@ -35,7 +35,7 @@ const Home = () => {
       </div>
       <div className="py-10 bg-[#FF3DB4] px-6 lg:px-20 pt-[100px] md:pt-[350px]">
         <div className="grid lg:grid-cols-2 gap-5 justify-items-center items-center">
-          <img src={SECTION_1} alt="" className="md:h-[450px] h-[250px] object-contain lg:object-cover" />
+          <img src={SECTION_1} alt="" className="md:h-[450px] h-[350px] object-contain lg:object-cover" />
           <p className="text-3xl px-5 lg:px-0 lg:text-4xl text-center text-white leading-snug">
             Welcome to Hello Kitty World, the ultimate meme project on Solana!
             Enter a playful universe where our adorable leader, Hello Kitty,
@@ -44,17 +44,17 @@ const Home = () => {
         </div>
       </div>
       <div className="py-10 bg-[#FF3DB4] px-6 lg:px-20">
-        <div className="grid lg:grid-cols-2 gap-5 justify-items-center items-center md:col-start-2 md:col-end-3 order-2 md:order-1">
-          <p className="text-3xl lg:text-4xl text-center text-white leading-snug md:col-start-1 md:col-end-2 order-1 md:order-2">
+        <div className="grid lg:grid-cols-2 gap-5 justify-items-center items-center">
+          <p className="text-3xl lg:text-4xl text-center text-white leading-snug md:col-start-2 md:col-end-3 order-2">
             Join a community-driven revolution that blends cuteness with crypto
             chaos. Get ready for laughter, fun, and moon-worthy gains. Embrace
             the new world order, where Hello Kitty rules!
           </p>
-          <img src={SECTION_2} alt="" className="h-[450px] object-contain" />
+          <img src={SECTION_2} alt="" className="h-[450px] object-contain md:col-start-1 md:col-end-2 order-1" />
         </div>
       </div>
-      <div className="bg-[#FF3DB4] py-10 flex flex-col items-center pt-[200px]">
-        <h2 className="text-3xl lg:text-5xl text-white pb-[150px]">
+      <div className="bg-[#FF3DB4] py-10 flex flex-col items-center pt-[100px] md:pt-[200px]">
+        <h2 className="text-4xl md:text-5xl font-[700] lg:text-5xl text-white pb-[150px] px-6 text-center">
           Build a New World Order with Kitty
         </h2>
         <div className="relative w-full px-6 lg:px-20">
@@ -62,31 +62,31 @@ const Home = () => {
           <img
             src={TIMELINEONE}
             alt="timeline"
-            className="md:absolute -top-20 right-[15%] h-[450px] hidden"
+            className="md:absolute -top-20 right-[15%] h-[450px] md:flex hidden"
           />
           <img
             src={TIMELINETWO}
             alt="timeline"
-            className="md:absolute left-[13%] top-[14%] h-[450px] hidden"
+            className="md:absolute left-[13%] top-[14%] h-[450px] md:flex hidden"
           />
           <img
             src={TIMELINETHREE}
             alt="timeline"
-            className="md:absolute top-[33%] right-[14%] h-[450px] hidden"
+            className="md:absolute top-[33%] right-[14%] h-[450px] md:flex hidden"
           />
           <img
             src={TIMELINEFOUR}
             alt="timeline"
-            className="md:absolute top-[54%] left-[13%] h-[450px] hidden"
+            className="md:absolute top-[54%] left-[13%] h-[450px] md:flex hidden"
           />
           <img
             src={TIMELINEFIVE}
             alt="timeline"
-            className="md:absolute top-[77%] right-[14%] h-[450px] hidden"
+            className="md:absolute top-[77%] right-[14%] h-[450px] md:flex hidden"
           />
         </div>
         <div className="pt-10 grid lg:grid-cols-2 gap-5 justify-items-center items-center px-6">
-          <img src={TIMELINESIX} alt="timeline" className="object-cover h-[400px]" />
+          <img src={TIMELINESIX} alt="timeline" className="object-contain h-[350px]" />
           <p className="text-2xl lg:text-4xl text-center text-white leading-snug">
             Join us in creating a new world order with Kitty leading the way!
             🚀🔥😺
