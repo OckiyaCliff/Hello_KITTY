@@ -25,7 +25,7 @@ const Navbar = () => {
         <div className="flex flex-col md:flex-row text-lg font-medium px-2 w-full md:w-auto">
           <a href="" className="px-2 py-1 md:py-0">Tokenmomics</a>
           <a href="" className="px-2 py-1 md:py-0">Timeline</a>
-          <a href="" className="px-2 py-1 md:py-0">About</a>
+          {/* <a href="" className="px-2 py-1 md:py-0">About</a> */}
         </div>
         <Button />
         <select name="lang" id="" className="bg-transparent p-2 w-full md:w-auto">
