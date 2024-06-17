@@ -62,27 +62,27 @@ const Home = () => {
           <img
             src={TIMELINEONE}
             alt="timeline"
-            className="absolute -top-20 right-[15%] h-[450px] "
+            className="md:absolute -top-20 right-[15%] h-[450px] hidden"
           />
           <img
             src={TIMELINETWO}
             alt="timeline"
-            className="absolute left-[13%] top-[14%] h-[450px]"
+            className="md:absolute left-[13%] top-[14%] h-[450px] hidden"
           />
           <img
             src={TIMELINETHREE}
             alt="timeline"
-            className="absolute top-[33%] right-[14%] h-[450px]"
+            className="md:absolute top-[33%] right-[14%] h-[450px] hidden"
           />
           <img
             src={TIMELINEFOUR}
             alt="timeline"
-            className="absolute top-[54%] left-[13%] h-[450px]"
+            className="md:absolute top-[54%] left-[13%] h-[450px] hidden"
           />
           <img
             src={TIMELINEFIVE}
             alt="timeline"
-            className="absolute top-[77%] right-[14%] h-[450px]"
+            className="md:absolute top-[77%] right-[14%] h-[450px] hidden"
           />
         </div>
         <div className="pt-10 grid lg:grid-cols-2 gap-5 justify-items-center items-center px-6">
@@ -95,7 +95,7 @@ const Home = () => {
       </div>
       <div className="bg-[#FF3DB4] pt-10 flex flex-col items-center px-6 lg:px-20 pb-10 text-white">
         <div className="relative w-full">
-          <img src={GLASS} alt="background-footer" className="w-full h-64" />
+          <img src={GLASS} alt="background-footer" className="w-full h-[500px] md:h-64" />
           <div className="absolute inset-0 flex flex-col">
             <div className="grid w-full h-full grid-cols-1 lg:grid-cols-3 gap-5 py-8 px-6 lg:px-10">
               <div className="flex flex-col items-center">
@@ -129,9 +129,9 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row justify-between items-center pt-4 pb-3 px-3">
+            <div className="flex flex-col lg:flex-row justify-between items-end pt-4 pb-3 px-3">
               <h2>copyright $KITTY Team</h2>
-              <div className="flex space-x-10 pt-4 lg:pt-0">
+              <div className="flex space-x-5 md:space-x-10 pt-4 lg:pt-0">
                 <h2>Terms of Service</h2>
                 <h2>Privacy Policy</h2>
                 <h2>Cookie</h2>
@@ -139,7 +139,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="relative w-full h-[200px]">
+        <div className="hidden md:relative w-full h-[200px]">
           <img src={FOOTER} alt="" className="object-contain h-[150px] w-[150px] absolute right-0 bottom-[65px]" />
         </div>
       </div>
