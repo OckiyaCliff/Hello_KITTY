@@ -4,7 +4,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { KITTY1, KITTY2 } from "../constants/home";
+import { KITTY2 } from "../constants/home";
 
 interface TimelineElementProps {
   date: string;
