@@ -1,4 +1,4 @@
-import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa6";
+import { FaTelegram, FaTwitter } from "react-icons/fa6";
 import Timeline from "../components/TimeLine";
 import {
   FOOTER,
@@ -102,8 +102,8 @@ const Home = () => {
                 <h2 className="text-3xl font-bold">$KITTY</h2>
                 <div className="flex py-2 space-x-2">
                   <FaTwitter />
-                  <FaInstagram />
-                  <FaLinkedin />
+                  <FaTelegram />
+                  {/* <FaLinkedin /> */}
                 </div>
               </div>
               <div className="flex flex-col items-start">

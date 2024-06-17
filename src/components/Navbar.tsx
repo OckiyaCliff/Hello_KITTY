@@ -23,7 +23,7 @@ const Navbar = () => {
       </div>
       <div className={`flex-col md:flex-row md:flex items-center w-full md:w-auto ${isMobileMenuOpen ? "flex" : "hidden"} md:flex`}>
         <div className="flex flex-col md:flex-row text-lg font-medium px-2 w-full md:w-auto">
-          <a href="" className="px-2 py-1 md:py-0">Tokenmomics</a>
+          {/* <a href="" className="px-2 py-1 md:py-0">Tokenmomics</a> */}
           <a href="" className="px-2 py-1 md:py-0">Timeline</a>
           {/* <a href="" className="px-2 py-1 md:py-0">About</a> */}
         </div>
