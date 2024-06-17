@@ -20,23 +20,23 @@ import { FaSearch } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <div className="bg-[#FFA1BF] min-h-screen overflow-x-hidden z-20 max-w-[1366px]">
+    <div className="bg-[#FFA1BF] min-h-screen overflow-x-hidden z-20 md:max-w-[1366px]">
       <div className="relative p-2">
-        <img src={HEROs} alt="" className="w-full h-screen object-cover" />
-        <div className="absolute inset-x-0 -bottom-[32%] flex justify-between">
-          <img src={HERO1} alt="" className="transform -translate-x-24" />
+        <img src={HEROs} alt="" className="w-full h-[500px] lg:h-screen object-contain lg:object-cover" />
+        <div className="absolute inset-x-0 -bottom-[30%] md:-bottom-[32%] md:flex justify-between hidden">
+          <img src={HERO1} alt="" className="transform -translate-x-24 h-[400px] lg:flex hidden" />
           <img
             src={HERO2}
             alt=""
-            className="transform translate-y-24 object-contain rounded-3xl"
+            className="transform translate-y-24 object-contain rounded-3xl h-[150px] md:h-[350px]"
           />
-          <img src={HERO3} alt="" className="transform translate-x-24" />
+          <img src={HERO3} alt="" className="transform translate-x-24 h-[350px] lg:flex hidden" />
         </div>
       </div>
-      <div className="py-10 bg-[#FF3DB4] px-6 lg:px-20 pt-[350px]">
+      <div className="py-10 bg-[#FF3DB4] px-6 lg:px-20 pt-[100px] md:pt-[350px]">
         <div className="grid lg:grid-cols-2 gap-5 justify-items-center items-center">
-          <img src={SECTION_1} alt="" className="h-[450px] object-cover" />
-          <p className="text-2xl lg:text-4xl text-center text-white leading-snug">
+          <img src={SECTION_1} alt="" className="md:h-[450px] h-[250px] object-contain lg:object-cover" />
+          <p className="text-3xl px-5 lg:px-0 lg:text-4xl text-center text-white leading-snug">
             Welcome to Hello Kitty World, the ultimate meme project on Solana!
             Enter a playful universe where our adorable leader, Hello Kitty,
             reigns supreme.
@@ -44,8 +44,8 @@ const Home = () => {
         </div>
       </div>
       <div className="py-10 bg-[#FF3DB4] px-6 lg:px-20">
-        <div className="grid lg:grid-cols-2 gap-5 justify-items-center items-center">
-          <p className="text-2xl lg:text-4xl text-center text-white leading-snug">
+        <div className="grid lg:grid-cols-2 gap-5 justify-items-center items-center md:col-start-2 md:col-end-3 order-2 md:order-1">
+          <p className="text-3xl lg:text-4xl text-center text-white leading-snug md:col-start-1 md:col-end-2 order-1 md:order-2">
             Join a community-driven revolution that blends cuteness with crypto
             chaos. Get ready for laughter, fun, and moon-worthy gains. Embrace
             the new world order, where Hello Kitty rules!
@@ -62,7 +62,7 @@ const Home = () => {
           <img
             src={TIMELINEONE}
             alt="timeline"
-            className="absolute -top-20 right-[15%] h-[450px]"
+            className="absolute -top-20 right-[15%] h-[450px] "
           />
           <img
             src={TIMELINETWO}
