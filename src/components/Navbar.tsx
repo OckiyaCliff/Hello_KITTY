@@ -27,7 +27,7 @@ const Navbar = () => {
           <a href="" className="px-2 py-1 md:py-0">Timeline</a>
           <a href="" className="px-2 py-1 md:py-0">About</a>
         </div>
-        <Button className="w-full md:w-auto px-2 py-1 md:py-0" />
+        <Button />
         <select name="lang" id="" className="bg-transparent p-2 w-full md:w-auto">
           <option value="EN">EN</option>
           <option value="FR">FR</option>
