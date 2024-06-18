@@ -132,7 +132,7 @@ const Home = () => {
                   <a href="https://x.com/hellokittyspl?s=21">
                     <FaTwitter />
                   </a>
-                  <a href="https//t.me/HelloKittyWorldSPL" target="_blank">
+                  <a href="https//https://t.me/HelloKittyWorldSPL" target="_blank">
                     <FaTelegram />
                   </a>
                   {/* <FaLinkedin /> */}
